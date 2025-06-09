@@ -68,7 +68,7 @@ user=[
 ]
 with open(filename, 'w', newline='') as file:
     writer=csv.writer(file)
-    writer.writerow(user)
+    writer.writerows(user)
 with open(filename,'a',newline='') as file:
     user =['Regina',18]
     writer=csv.writer(file)
